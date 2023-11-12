@@ -41,7 +41,7 @@ export interface OpenAIEmbeddingsParams extends EmbeddingsParams {
  * Embeddings class and implements OpenAIEmbeddingsParams and
  * AzureOpenAIInput.
  */
-export class OpenAIEmbeddings
+ class OpenAIEmbeddings
   extends Embeddings
   implements OpenAIEmbeddingsParams, AzureOpenAIInput
 {
@@ -248,3 +248,4 @@ export class OpenAIEmbeddings
     });
   }
 }
+export { OpenAIEmbeddings };
